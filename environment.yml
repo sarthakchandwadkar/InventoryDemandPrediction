@@ -1,0 +1,11 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy=1.21.2
+  - scikit-learn=1.2.2
+  - joblib=1.4.2
+  - pip
+  - pip:
+    - azureml-defaults
